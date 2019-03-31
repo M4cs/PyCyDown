@@ -23,7 +23,7 @@ class Commands:
         while True:
             terminal = input(self.prefix).lower()
             if terminal[0:4] == 'help':
-                self.help()
+                self.helpm()
             elif terminal[0:4] == 'exit':
                 webbrowser.open_new_tab('https://twitter.com/intent/follow?&region=follow_link&screen_name=maxbridgland&tw_p=followbutton')
                 break
@@ -58,7 +58,7 @@ class Commands:
                 print('Unknown Command | Use "help" command to display help menu.')
         exit()
 
-    def help(self):
+    def helpm(self):
         if not self.repo:
             repo = ''
         else:
