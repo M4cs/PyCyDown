@@ -19,7 +19,7 @@ class Commands:
         self.udid = ''
 
     def main(self):
-        self.help()
+        self.helpm()
         while True:
             terminal = input(self.prefix).lower()
             if terminal[0:4] == 'help':
