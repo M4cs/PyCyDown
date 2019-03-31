@@ -9,8 +9,7 @@ This repository is in active development. The source code may not work completel
 - Save and Load Configurations
 - Easy to use UI
 - Multi-Package Queue
-
-# Getting Started
+- Basic iOS Support
 
 ## Requirements:
 
@@ -19,6 +18,19 @@ This repository is in active development. The source code may not work completel
 - wget
 
 ## Installation:
+
+### iOS setup (skip if not on iOS)
+
+Download TestFlight https://itunes.apple.com/us/app/testflight/id899247664?mt=8
+Download iSH from TestFlight https://testflight.apple.com/join/97i7KM8O
+Open iSH and input the following code:
+```
+apk add wget
+apk add python
+apk add python3
+apk add py-pip
+apk add git
+```
 
 ### Clone the repository:
 ```
